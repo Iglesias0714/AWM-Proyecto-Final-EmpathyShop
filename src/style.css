@@ -1,0 +1,32 @@
+/* Estilos para el contenedor de la imagen principal */
+.image-container {
+    position: relative;
+  }
+  
+  /* Estilos para el texto sobre la imagen principal */
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  /* Estilos para los botones de CTA */
+  .cta-button {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Agrega más estilos según sea necesario */
+  
