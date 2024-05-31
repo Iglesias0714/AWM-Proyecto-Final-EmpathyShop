@@ -47,7 +47,6 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
    ```bash
    npm run dev
 5. Servidor o Backend de la aplicación
-   ```bash
    [Backend-EmpathyShop](https://github.com/Iglesias0714/Backend-EmpathyShop)
    
  ## Configuración de componentes
