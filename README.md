@@ -1,4 +1,4 @@
-# [EmpathyShop](https://github.com/tu-usuario/tu-repositorio) - [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org) + [Vite](https://vitejs.dev)
+# [EmpathyShop](https://github.com/Iglesias0714/AWM-Proyecto-Final-EmpathyShop) - [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org) + [Vite](https://vitejs.dev)
 
 
 EmpathyShop es una aplicación web desarrollada con React, TypeScript y Vite. La aplicación permite a los usuarios ver una lista de productos con sus nombres, precios y descripciones, así como añadir y eliminar productos. 
