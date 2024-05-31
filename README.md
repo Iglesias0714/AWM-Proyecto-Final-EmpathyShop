@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# [EmpathyShop](https://github.com/Iglesias0714/AWM-Proyecto-Final-EmpathyShop) - [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org) + [Vite](https://vitejs.dev)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+EmpathyShop es una aplicación web desarrollada con React, TypeScript y Vite. La aplicación permite a los usuarios ver una lista de productos con sus nombres, precios y descripciones, así como añadir y eliminar productos. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Vite
+- React Router
+- Adroid Studio
+- Visual Studio Code
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Estructura del Proyecto
 
-- Configure the top-level `parserOptions` property like this:
+El proyecto tiene la siguiente estructura de directorios:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+/src
+/components
+Navbar.tsx
+Welcome.tsx
+/pages
+Dashboard.tsx
+Products.tsx
+AddProduct.tsx
+/services
+api.ts
+App.tsx
+main.tsx
+index.css
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalación
+
+Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone <https://github.com/Iglesias0714/AWM-Proyecto-Final-EmpathyShop>
+2. Navega al directorio del proyecto:
+   ```bash
+   cd EmpathyShop
+3. Instala las dependencias:
+   ```bash
+   npm install
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+5. Servidor o Backend de la aplicación
+   [Backend-EmpathyShop](https://github.com/Iglesias0714/Backend-EmpathyShop)
+   
+ ## Configuración de componentes
+| Nombre del Componente | Descripción | Enlace |
+|-----------------------|-------------|--------|
+| `Navbar`              | Proporciona la navegación principal de la aplicación. | [Navbar.tsx](src/components/Navbar.tsx) |
+| `Welcome`             | Página de bienvenida de la aplicación. | [Welcome.tsx](src/components/Welcome.tsx) |
+| `Dashboard`           | Muestra una lista de productos con nombre, precio y descripción. | [Dashboard.tsx](src/pages/Dashboard.tsx) |
+| `Products`            | Permite ver y eliminar productos. | [Products.tsx](src/pages/Products.tsx) |
+| `AddProduct`          | Formulario para añadir nuevos productos. | [AddProduct.tsx](src/pages/AddProduct.tsx) |
+| `api`                 | Contiene las funciones para realizar solicitudes HTTP al servidor. | [api.ts](src/services/api.ts) |
+| `App`                 | Configuración de las rutas de la aplicación. | [App.tsx](src/App.tsx) |
+| `main`                | Punto de entrada principal de la aplicación. | [main.tsx](src/main.tsx) |
+| `index.css`           | Estilos globales de la aplicación. | [index.css](src/index.css) |
+
+
