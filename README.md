@@ -48,7 +48,8 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 5. Servidor o Backend de la aplicación
    ```bash
    https://github.com/Iglesias0714/Backend-EmpathyShop
-
+   
+ ## Configuración de componentes
 | Nombre del Componente | Descripción | Enlace |
 |-----------------------|-------------|--------|
 | `Navbar`              | Proporciona la navegación principal de la aplicación. | [Navbar.tsx](src/components/Navbar.tsx) |
